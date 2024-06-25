@@ -4,7 +4,7 @@ Once the food item is extracted from the image, we extract the feature vector of
 
 Once the food item is identified, we were able to calculate the volume of food items by approximating it to a geometric shape like sphere, cylinder, etc. Once we have the volume, the mass of the food item is calculated using standard density tables. Using already available information of nutritional content of the given class of food, the total calorie content in the food image can be estimated.
 
-The dataset can be found [here]([https://pages.github.com/](https://www.dropbox.com/scl/fi/pzcrc0lfyifyxsub0w5lv/CalorieEstimationDataset.zip?rlkey=oolturrb1tk1umoi86lrg0kka&st=rwsmgs54&dl=0)) 
+The dataset can be found [here](https://www.dropbox.com/scl/fi/pzcrc0lfyifyxsub0w5lv/CalorieEstimationDataset.zip?rlkey=oolturrb1tk1umoi86lrg0kka&st=rwsmgs54&dl=0/)
 
 The dataset has separate folders for every class of images. Folder All_Images contained the complete training dataset, we picked 20 images each for training from every class. If you want to train with more images for every class, pick up from the respective folder and drop them into All_Images. Please note that this will mean you have to change a bit of code in learn.py to make sure more images are trained.
 
